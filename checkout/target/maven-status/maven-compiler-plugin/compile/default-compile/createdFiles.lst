@@ -1,0 +1,4 @@
+com/hiberus/checkout/model/services/ISummaryService.class
+com/hiberus/checkout/model/services/SumaryServiceImpl.class
+com/hiberus/checkout/model/entity/Summary.class
+com/hiberus/checkout/model/dao/ISummaryDao.class

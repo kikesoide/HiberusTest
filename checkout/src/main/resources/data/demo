@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS Product;
+ 
+CREATE TABLE client (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  first_name VARCHAR(250) NOT NULL,
+  last_name VARCHAR(250) NOT NULL,
+  address VARCHAR(250) DEFAULT NULL
+);
+ 
+INSERT INTO client (first_name, last_name, address) VALUES
+  ('Jorge', 'Torres', 'cll 24 # 11-30'),
+  ('Enrique', 'Esquivel', 'cll 146 # 19-89'),
+  ('Pancracio', 'Martinez', 'cr 19 # 164-53');
